@@ -1,0 +1,12 @@
+.headerMenu {
+  @apply w-full -mt-4 sm:mt-0 sm:w-auto sm:flex-1 order-3 sm:order-2;
+}
+
+.headerMenuItem {
+  @apply inline-block text-lg h-16 leading-8 px-4 py-4 text-gray-600 font-medium hover:bg-gray-200 hover:text-gray-800;
+}
+
+.headerMenuItem.active {
+  @apply text-gray-800 border-b-2 border-indigo-700
+}
+

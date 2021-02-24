@@ -9,7 +9,15 @@
   },
   "dependencies": {
     "next": "10.0.7",
+    "next-auth": "^3.5.0",
+    "next-iron-session": "^4.1.12",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "sass": "^1.32.8"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.4",
+    "postcss": "^8.2.6",
+    "tailwindcss": "^2.0.3"
   }
 }
